@@ -22,7 +22,11 @@ npm test
 npm run build
 ```
 
-`dist/` contains a self-contained static app. All paths are relative, including subpath hosting. This repository is prepared locally; no repository or public app URL has been provisioned by this work.
+`dist/` contains a self-contained static app. All paths are relative, including subpath hosting.
+
+[Open Bytewell](https://intrepion.github.io/kata-app-inspired-by-quickbasic-45-codex-dot/) · [Source repository](https://github.com/intrepion/kata-app-inspired-by-quickbasic-45-codex-dot)
+
+GitHub Actions runs the syntax checks, interpreter tests, and static build before publishing `dist/` to GitHub Pages.
 
 ## The workbench
 

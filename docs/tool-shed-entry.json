@@ -5,9 +5,9 @@
   "category": "Development",
   "tagline": "A little code. A little wonder.",
   "description": "An original local-first BASIC workbench. Write a small program, draw with sixteen colors, step through it, and watch its variables change.",
-  "status": "preview",
-  "repo": null,
-  "launch": null,
+  "status": "live",
+  "repo": "https://github.com/intrepion/kata-app-inspired-by-quickbasic-45-codex-dot",
+  "launch": "https://intrepion.github.io/kata-app-inspired-by-quickbasic-45-codex-dot/",
   "verified": null,
   "features": [
     "Focused BASIC language subset",
@@ -41,7 +41,7 @@
       "source": "Original Chromium/CUA capture of a 390 CSS-pixel iframe at http://127.0.0.1:4173/tests/responsive.html. Responsive simulation, not a physical-device test."
     }
   ],
-  "verificationEvidence": "32 interpreter tests, 29 real-browser UI regressions, JavaScript syntax check and static build passed on 2026-11-10. Native BAS download/reopen/run and 390px keyboard execution were verified through localhost. Exact scope and screenshots are recorded in docs/TESTING.md. Not published.",
+  "verificationEvidence": "32 interpreter tests, 29 real-browser UI regressions, JavaScript syntax check and static build passed on 2026-11-10. Native BAS download/reopen/run and 390px keyboard execution were verified through localhost. Exact scope and screenshots are recorded in docs/TESTING.md. Publication is handled by the repository GitHub Pages workflow; local QA evidence is retained here.",
   "projectNotes": [
     "Independent learning project inspired by QuickBASIC 4.5. Not a DOS emulator, Microsoft product, or compatible QuickBASIC compiler.",
     "Supports a documented scalar BASIC subset. No arrays, SUB/FUNCTION, file I/O, sound, or executable compilation."

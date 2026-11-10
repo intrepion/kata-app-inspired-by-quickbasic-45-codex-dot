@@ -8,11 +8,27 @@
   "tagline": "A little code. A little wonder.",
   "description": "An original local-first BASIC workbench with a focused language subset, step debugger, live variables, and a sixteen-color drawing canvas.",
   "entryPoint": "index.html",
-  "status": "preview",
+  "status": "live",
   "toolShedUrl": "https://intrepion.github.io/tools/",
-  "screenshots": ["docs/screenshots/bytewell-desktop.jpg", "docs/screenshots/bytewell-narrow.jpg"],
-  "inspiration": { "name": "QuickBASIC 4.5", "url": "https://www.pcjs.org/documents/books/mspl13/basic/qblearn/" },
+  "screenshots": [
+    "docs/screenshots/bytewell-desktop.jpg",
+    "docs/screenshots/bytewell-narrow.jpg"
+  ],
+  "inspiration": {
+    "name": "QuickBASIC 4.5",
+    "url": "https://www.pcjs.org/documents/books/mspl13/basic/qblearn/"
+  },
   "license": "MIT",
-  "features": ["Independent bounded BASIC interpreter", "Syntax-highlighted source editor", "Run, pause, step and variable inspection", "Immediate statements", "Interactive INPUT", "640 × 480 graphics and 16 colors", "Five original example programs", "Plain-text BAS import/export and local draft recovery", "Visible line-numbered errors and language guide"],
-  "launchUrl": null
+  "features": [
+    "Independent bounded BASIC interpreter",
+    "Syntax-highlighted source editor",
+    "Run, pause, step and variable inspection",
+    "Immediate statements",
+    "Interactive INPUT",
+    "640 × 480 graphics and 16 colors",
+    "Five original example programs",
+    "Plain-text BAS import/export and local draft recovery",
+    "Visible line-numbered errors and language guide"
+  ],
+  "launchUrl": "https://intrepion.github.io/kata-app-inspired-by-quickbasic-45-codex-dot/"
 }

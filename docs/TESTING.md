@@ -44,4 +44,4 @@ The shared localhost preview was stopped after verification. Start it again with
 
 ## Scope and remaining limits
 
-The automated checks verify this documented dialect, not compatibility with arbitrary QuickBASIC programs. There is no Microsoft compiler comparison suite. Other browsers and operating systems, real assistive technology, physical phones, long-lived storage persistence, and unavailable-storage behavior are not yet end-to-end verified. No production deployment or public repository was created.
+The automated checks verify this documented dialect, not compatibility with arbitrary QuickBASIC programs. There is no Microsoft compiler comparison suite. Other browsers and operating systems, real assistive technology, physical phones, long-lived storage persistence, and unavailable-storage behavior are not yet end-to-end verified. The initial QA pass was local. The subsequent public release uses the checked GitHub Pages workflow; remote deployment verification is separate from these local/browser test results.
