@@ -1,0 +1,6 @@
+{
+  "name": "kata-bytewell", "version": "0.1.0", "private": true, "type": "module",
+  "description": "Bytewell: an original, local-first BASIC workbench inspired by QuickBASIC 4.5",
+  "scripts": {"dev": "node scripts/server.mjs", "check": "node --check src/basic.js && node --check src/app.js && node --check src/examples.js", "test": "node --test tests/*.test.mjs", "build": "node scripts/build.mjs"},
+  "engines": {"node": ">=22"}, "license": "MIT"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kata-app-inspired-by-quickbasic-45-codex-dot",
+  "title": "Bytewell",
+  "inspiration": "QuickBASIC 4.5",
+  "category": "Development",
+  "tagline": "A little code. A little wonder.",
+  "description": "An original local-first BASIC workbench. Write a small program, draw with sixteen colors, step through it, and watch its variables change.",
+  "status": "preview",
+  "repo": null,
+  "launch": null,
+  "verified": null,
+  "features": [
+    "Focused BASIC language subset",
+    "Run, pause and single-step",
+    "Live variables and Immediate statements",
+    "640 × 480 graphics canvas",
+    "Interactive INPUT",
+    "Five original programs",
+    "BAS import/export and browser draft saving",
+    "Visible errors and runaway-program limits"
+  ],
+  "screenshots": [
+    {
+      "file": "/screenshots/apps/kata-app-inspired-by-quickbasic-45-codex-dot/bytewell-desktop.jpg",
+      "alt": "Bytewell desktop BASIC editor showing the Orbit study source, sixteen-color geometry output, and live scalar variables.",
+      "caption": "Orbit study in the desktop workbench.",
+      "width": 1165,
+      "height": 1053,
+      "capturedAt": "2026-11-10",
+      "sha256": "78bf5829c5d2c2e1f07f073a5783651d51ebaf484c31d3a446ce2906a0d906c7",
+      "source": "Original Chromium/CUA document-bound capture at http://127.0.0.1:4173/, after the final panel-height fix."
+    },
+    {
+      "file": "/screenshots/apps/kata-app-inspired-by-quickbasic-45-codex-dot/bytewell-narrow.jpg",
+      "alt": "Bytewell stacked narrow layout with BASIC source, finished orbit graphics, variable values and the Immediate command field.",
+      "caption": "390 CSS-pixel responsive layout after F5 execution.",
+      "width": 390,
+      "height": 1420,
+      "capturedAt": "2026-11-10",
+      "sha256": "e3615f2ffd7a727e6ca8820ff7daa9be6d93830c3151ab533cdf0abe77265549",
+      "source": "Original Chromium/CUA capture of a 390 CSS-pixel iframe at http://127.0.0.1:4173/tests/responsive.html. Responsive simulation, not a physical-device test."
+    }
+  ],
+  "verificationEvidence": "32 interpreter tests, 29 real-browser UI regressions, JavaScript syntax check and static build passed on 2026-11-10. Native BAS download/reopen/run and 390px keyboard execution were verified through localhost. Exact scope and screenshots are recorded in docs/TESTING.md. Not published.",
+  "projectNotes": [
+    "Independent learning project inspired by QuickBASIC 4.5. Not a DOS emulator, Microsoft product, or compatible QuickBASIC compiler.",
+    "Supports a documented scalar BASIC subset. No arrays, SUB/FUNCTION, file I/O, sound, or executable compilation."
+  ]
+}
